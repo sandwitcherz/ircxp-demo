@@ -8,7 +8,7 @@ Ce dépôt distribue la **version de démonstration** : toutes les fonctions, li
 - Boutique et licences : https://shop.ircxp.live
 - Documentation : https://ircxp.live/wiki
 
-> Version actuelle : **2.0.1**. Voir les [Releases](../../releases).
+> Version actuelle : **2.1.0**. Voir les [Releases](../../releases).
 
 ## Ce que contient ircxp
 
