@@ -2,24 +2,28 @@
 
 **ircxp** est un serveur IRC tout-en-un écrit en Go par [PcXpress](https://pcxpress.fr) : serveur, services (NickServ, ChanServ, OperServ, BotServ, HostServ, FunServ), client web, bouncer intégré, application Android, modération assistée par IA, panel d'administration — dans **un seul binaire**, sans dépendance à installer.
 
+*English: [README.en.md](README.en.md)*
+
 Ce dépôt distribue la **version de démonstration** : toutes les fonctions, limitée à **10 connexions** et sans liaison entre serveurs. De quoi tout essayer chez vous avant d'acheter.
 
 - Démo en ligne : https://ircxp.live (IRC : `ircxp.live`, TLS 6697 / 6667)
 - Boutique et licences : https://shop.ircxp.live
-- Documentation : https://ircxp.live/wiki
+- Documentation : https://ircxp.live/wiki (version anglaise : bouton « EN »)
 
-> Version actuelle : **2.1.0**. Voir les [Releases](../../releases).
+> Version actuelle : **2.2.0**. Voir les [Releases](../../releases).
 
 ## Ce que contient ircxp
 
 - **Serveur IRC et services** : comptes et salons enregistrés, niveaux d'opérateurs (helper, ircop, admin, netadmin, devadmin), modes de salon mémorisés, SASL.
-- **Client web** : thèmes clair et sombre, avatars, rangs et XP, effets de pseudo, ouvert dans un navigateur sans rien installer.
+- **IRCv3** : négociation des capacités 3.2 (`CAP LS 302`) avec `multi-prefix`, `away-notify`, `account-notify`, `extended-join`, `chghost`, `server-time`, `sasl`, `cap-notify`, `echo-message`, `batch` et `draft/chathistory`.
+- **Salons chiffrés de bout en bout** : mode `+E`, messages chiffrés dans le client web (AES-256-GCM, phrase secrète jamais envoyée au serveur) ; seuls les salons avec ce mode sont chiffrés.
+- **Client web** (français et anglais) : thèmes clair et sombre, avatars, rangs et XP, effets de pseudo, ouvert dans un navigateur sans rien installer.
 - **Bouncer intégré** (façon ZNC) : session toujours connectée, historique des messages manqués, réseaux externes, panneau utilisateur.
 - **Application Android** prête à installer.
 - **Modération et RGPD** : modération IA (+M), signalements, pages légales prêtes à l'emploi.
 - **Jeux et bots** : Quiz, Motus, traduction automatique par salon (+T), rappels et notes, monitoring.
 - **Panel d'administration** : accès par opérateur, sauvegardes automatiques et restauration, apparence personnalisable.
-- **Passerelles** Discord et Fluxer.
+- **Passerelles** Discord, Fluxer et **IRC ↔ IRC** (par exemple un salon de Libera relié à un salon de ton réseau ; les bots répondent des deux côtés).
 
 ## Démo et licence complète
 
@@ -64,7 +68,7 @@ Le serveur écoute en IRC sur les ports 6667 (clair) et 6697 (TLS), et ouvre le 
 
 ## Licence
 
-La version de démonstration est fournie **gratuitement pour évaluation**. Sa redistribution et son usage commercial sont interdits sans licence. Le code source n'est pas fourni. Voir [LICENSE.md](LICENSE.md).
+La version de démonstration est fournie **gratuitement pour évaluation**. Sa redistribution et son usage commercial sont interdits sans licence. Le code source n'est pas fourni. Voir [LICENSE.md](LICENSE.md) (texte de référence, en français) et [LICENSE.en.md](LICENSE.en.md) (traduction anglaise).
 
 ## Contact
 
