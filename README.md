@@ -7,10 +7,11 @@
 Ce dépôt distribue la **version de démonstration** : toutes les fonctions, limitée à **10 connexions** et sans liaison entre serveurs. De quoi tout essayer chez vous avant d'acheter.
 
 - Démo en ligne : https://ircxp.live (IRC : `ircxp.live`, TLS 6697 / 6667)
+- **Toutes les fonctions : [FEATURES.md](FEATURES.md)**
 - Boutique et licences : https://shop.ircxp.live
 - Documentation : https://ircxp.live/wiki (version anglaise : bouton « EN »)
 
-> Version actuelle : **2.2.0**. Voir les [Releases](../../releases).
+> Version actuelle : **2.2.1**. Voir les [Releases](../../releases).
 
 ## Ce que contient ircxp
 
