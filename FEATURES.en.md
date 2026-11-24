@@ -12,7 +12,7 @@ This repository distributes the **demo version**: all the features, limited to *
 - Shop and licences: https://shop.ircxp.live
 - Documentation: https://ircxp.live/wiki (English version: button “EN”)
 
-> Current version: **2.2.1**. See the [Releases](../../releases).
+> Current version: **2.3.0**. See the [Releases](../../releases).
 
 ## Online demo
 
