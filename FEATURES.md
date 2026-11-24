@@ -12,7 +12,7 @@ Ce dépôt distribue la **version de démonstration** : toutes les fonctions, li
 - Boutique et licences : https://shop.ircxp.live
 - Documentation : https://ircxp.live/wiki (version anglaise : bouton « EN »)
 
-> Version actuelle : **2.2.0**. Voir les [Releases](../../releases).
+> Version actuelle : **2.2.1**. Voir les [Releases](../../releases).
 
 ## Démo en ligne
 
@@ -59,6 +59,8 @@ C'est un serveur de démonstration : il peut être redémarré ou remis à zéro
 | **Panel admin** | gestion complète en onglets (`/admin`), wiki intégré (`/wiki`) |
 | **Ponts** | Discord et Fluxer ↔ IRC, et IRC ↔ IRC (un autre réseau comme Libera) : messages instantanés, statuts distants reportés, les bots répondent des deux côtés |
 | **Sécurité** | SecureServ (DNSBL, limites par IP), anti-takeover, verrouillage des échecs de mot de passe |
+| **Aide** | HelpServ et `HELP` de chaque service : une fonction par ligne, en français ou en anglais |
+| **Anonymat et IPv6** | service Tor (adresse `.onion` en plus de l'adresse normale) et port TLS IPv6, activables dans le panel |
 | **Réseau** | HUB / LEAF, liens TLS avec empreinte épinglée |
 
 > Toutes ces fonctions sont dans la version de démonstration ; seules les limites du tableau « Démo et licence complète » changent.
@@ -87,7 +89,7 @@ Le serveur écoute en IRC sur les ports 6667 (clair) et 6697 (TLS), et ouvre le 
 ## Ressources et déploiement
 
 Mesuré sur ircxp (un seul processus Go) : **14 Mo de RAM au démarrage**, environ 50 Ko par connexion (2 000 connexions simultanées ≈ 107 Mo), CPU négligeable.
-**Recommandé : 1 vCPU, 256 Mo de RAM, 1 Go de disque** (minimum : 128 Mo, 200 Mo).
+**Recommandé : 1 vCPU, 256 Mo de RAM, 1 Go de disque** (minimum : 128 Mo, 200 Mo). Détails : docs/INSTALL.md.
 
 ircxp fonctionne très bien :
 - avec une **IP dédiée** (ports IRC et web directement exposés) ;

@@ -12,7 +12,7 @@ This repository distributes the **demo version**: all the features, limited to *
 - Shop and licences: https://shop.ircxp.live
 - Documentation: https://ircxp.live/wiki (English version: button “EN”)
 
-> Current version: **2.2.0**. See the [Releases](../../releases).
+> Current version: **2.2.1**. See the [Releases](../../releases).
 
 ## Online demo
 
@@ -59,6 +59,8 @@ This is a demonstration server: it can be restarted or reset at any time, do not
 | **Admin panel** | complete management in tabs (`/admin`), built-in wiki (`/wiki`) |
 | **Bridges** | Discord and Fluxer ↔ IRC, and IRC ↔ IRC (another network such as Libera): instant messages, remote statuses mirrored, the bots answer on both sides |
 | **Security** | SecureServ (DNSBL, per-IP limits), anti-takeover, password failure lockout |
+| **Help** | HelpServ and the `HELP` of every service: one function per line, in French or English |
+| **Anonymity and IPv6** | Tor service (`.onion` address in addition to the normal one) and IPv6 TLS port, turned on from the panel |
 | **Network** | HUB / LEAF, TLS links with pinned fingerprint |
 
 > All these features are in the demo version; only the limits in the “Demo and full licence” table differ.
